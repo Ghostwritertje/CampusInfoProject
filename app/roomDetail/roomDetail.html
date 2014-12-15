@@ -1,0 +1,23 @@
+<div class="container slide">
+
+    <h2>Room Detail</h2>
+
+    <p>Naam: {{roomName}}</p>
+
+    <p>Type: {{room.type}}</p>
+
+    <p>Omschrijving: {{room.omschrijving}}</p>
+
+    <p>Capaciteit: {{room.capaciteit}}</p>
+
+    <p>Beamer: {{room.beamer}}</p>
+
+    <p>Acties: </p>
+    <ul>
+        <li ng-repeat="actie in room.acties">
+            Type: {{actie.type}} <br/>
+            Datum aanmaak: {{actie.aanmaakDatum}}<br/>
+            Omschrijving: {{actie.omschrijving}}
+        </li>
+    </ul>
+</div>

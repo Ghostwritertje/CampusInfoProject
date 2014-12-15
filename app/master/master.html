@@ -1,0 +1,23 @@
+<div class="container">
+<h2>Rooms</h2>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>Naam</th>
+        <th>Capaciteit</th>
+    </tr>
+    </thead>
+    <tbody>
+   <tr ng-repeat="room in rooms" ng-click="goRoom(room.naam)">
+        <td>{{room.naam}}</td>
+        <td>{{room.capaciteit}}</td>
+    </tr>
+    </tbody>
+</table >
+  <!--  <ul>
+    <li ng-repeat="room in rooms">
+      <a href="#/roomDetail/{{room.naam}}"> Naam:  {{room.naam}}</a>, Capaciteit: {{room.capaciteit}}
+    </li>
+
+</ul>-->
+</div>

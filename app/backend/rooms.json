@@ -1,0 +1,4 @@
+[
+  {"naam": "GR302", "type": "klaslokaal", "omschrijving": "", "capaciteit": "150", "beamer": "n", "acties": []},
+  {"naam": "Cafetaria", "type": "cafetaria", "omschrijving": "cafetaria op 1e verdiep", "capaciteit": "150", "beamer": "n", "acties": [{"aanmaakDatum": "01/01/2014", "type": "zonnewering", "omschrijving": "zonnewering gaat niet meer omhoog", "prioriteit": "hoog", "deadline": "02/01/2014", "uitgevoerd": "ja", "uitvoeringsDagum":"02/01/2014"}]}
+]
